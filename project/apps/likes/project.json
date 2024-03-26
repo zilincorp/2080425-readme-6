@@ -1,0 +1,24 @@
+{
+  "name": "likes",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/likes/src",
+  "projectType": "application",
+  "targets": {
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "likes:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "likes:build:development"
+        },
+        "production": {
+          "buildTarget": "likes:build:production"
+        }
+      }
+    }
+  },
+  "tags": []
+}
