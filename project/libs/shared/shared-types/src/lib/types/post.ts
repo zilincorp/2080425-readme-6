@@ -1,6 +1,6 @@
 import { CommentsInterface } from 'libs/shared/shared-types/src/lib/types/comments.interface';
 
-export interface PostInterface {
+export interface Post {
   author: string;
   repostAuthor?: string;
   repost?: boolean;

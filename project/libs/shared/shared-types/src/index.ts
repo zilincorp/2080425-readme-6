@@ -1,1 +1,12 @@
-export * from './lib/shared-types';
+export { Entity } from './lib/base/entity';
+export { User } from './lib/types/user';
+export { AuthUser } from './lib/types/auth.user';
+export { Subscribe } from 'libs/shared/shared-types/src/lib/types/subscribe';
+export { UserPosts } from 'libs/shared/shared-types/src/lib/types/userPosts';
+export { Registration } from 'libs/shared/shared-types/src/lib/types/registration';
+export { PostVideo } from 'libs/shared/shared-types/src/lib/types/postVideo';
+export { PostText } from 'libs/shared/shared-types/src/lib/types/postText';
+export { PostQuote } from 'libs/shared/shared-types/src/lib/types/postQuote';
+export { PostPhoto } from 'libs/shared/shared-types/src/lib/types/postPhoto';
+export { PostLink } from 'libs/shared/shared-types/src/lib/types/postLink';
+export { Post } from 'libs/shared/shared-types/src/lib/types/post';
